@@ -124,3 +124,5 @@
 (neighbour x9y11 x8y11)
 (neighbour x10y11 x11y11)
 (neighbour x10y11 x9y11)
+(neighbour x11y11 x11y10)
+(neighbour x11y11 x10y11)

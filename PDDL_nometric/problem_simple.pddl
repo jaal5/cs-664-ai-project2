@@ -1,5 +1,5 @@
-(define (problem mazerunner)
-  (:domain maze)
+(define (problem maze_simple)
+  (:domain mazerunner)
 
   ; All possible fields as well as the player
   (:objects x2y2
@@ -197,9 +197,10 @@
     (neighbour x9y11 x8y11 )
     (neighbour x10y11 x11y11 )
     (neighbour x10y11 x9y11 )
-    (on runner x11y2)
+    ; enter starting position here
+    (on runner x2y2)
   )
 
-  ; The player is at the target
+  ; enter target position here
   (:goal (on runner x11y11)
 ))

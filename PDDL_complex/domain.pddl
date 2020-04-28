@@ -1,7 +1,7 @@
 ; Domain description
 ; Describe the relations and transitions that can occur
 ; This one describes the Tower of Hanoi puzzle
-(define (domain maze) ; Domain name must match problem's
+(define (domain mazerunner) ; Domain name must match problem's
 
   ; Define what the planner must support to execute this domain
   ; Only domain requirements are currently supported
